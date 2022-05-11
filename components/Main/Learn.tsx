@@ -19,12 +19,12 @@ export default function Learn() {
                     <StartButton width={385}>Learn more about our security features</StartButton>
                 </Box>
                 <Box position={'relative'} top={'-100px'}>
-                    <Image src={schemas} height={'500px'} />
+                    <Image alt={'security'} src={schemas} height={'500px'} />
                 </Box>
 
             </Box>
             <Box display={'flex'} alignItems={'center'} justifyContent={'center'} width={'100%'} position={'relative'} top={'-100px'}>
-                <Image src={map} />
+                <Image alt={'security'} src={map} />
                 <Typography variant={"h3"} position={'absolute'} color={'white'}>Global Support</Typography>
             </Box>
         </Box>

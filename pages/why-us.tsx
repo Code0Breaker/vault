@@ -22,7 +22,7 @@ export default function WhyUs() {
                     </Box>
                 </Layout>
                 <Box position={'absolute'} right={200} top={240}>
-                    <Image src={security} width={'854px'} height={'495px'} objectFit={'cover'} />
+                    <Image alt={'security'} src={security} width={'854px'} height={'495px'} objectFit={'cover'} />
                 </Box>
             </Box>
             <Box padding={'170px'}>

@@ -22,7 +22,7 @@ export default function Security() {
                                 <Typography variant={'h6'} color={'white'} maxWidth={'485px'}>{t('text', { returnObjects: true })}</Typography>
                             </Box>
                             <Box>
-                                <Image src={bigLock} />
+                                <Image alt={'security'} src={bigLock}/>
                             </Box>
                         </Box>
                     </Box>
@@ -47,7 +47,7 @@ export default function Security() {
                 </Grid>
                 <Grid xs={6}>
                     <Box height={'100%'} display={'flex'} justifyContent={'center'} alignItems={'center'}>
-                        <Image src={generator} />
+                        <Image alt={'security'} src={generator} />
                     </Box>
                 </Grid>
                 <Grid xs={6} marginTop={'150px'}>
@@ -76,7 +76,7 @@ export default function Security() {
                 </Grid>
                 <Grid xs={6} position={'relative'}>
                     <Box position={'absolute'} zIndex={10} bottom={'-320px'}>
-                        <Image src={securityFrame} />
+                        <Image alt={'security'} src={securityFrame} />
                     </Box>
                 </Grid>
             </Grid>

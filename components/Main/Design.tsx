@@ -10,7 +10,7 @@ export default function Design(){
             <Typography variant={"h4"}>Security Meets Modern Design</Typography>
             <Typography variant={"body2"}>You can customize  theme colors, or sizes of the icons.</Typography>
           </Box>
-          <Image src={security} />
+          <Image src={security} alt={'security'}/>
           <Typography color={'#01457C'} marginBottom={'15px'} marginTop={'110px'} variant={'body1'}>Lorem Ipsum has been the industry's standard dummy</Typography>
           <StartButton color1="#43E3E0" color2="#49BDDD">Create Account</StartButton>
         </Box>

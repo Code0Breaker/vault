@@ -25,9 +25,9 @@ export default function Intro(){
               </Box>
             </Box>
             <Box position={'relative'}>
-              <Image src={mainimg} />
+              <Image alt={'security'} src={mainimg} />
               <Box position={'absolute'} left={'-100px'} bottom={'-80px'}>
-                <Image src={shadow} width={'500px'} height={'500px'}/>
+                <Image alt={'security'} src={shadow} width={'500px'} height={'500px'}/>
               </Box>
             </Box>
             <Box

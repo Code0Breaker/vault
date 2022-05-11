@@ -14,10 +14,10 @@ export default function Guarantee() {
                 {t('text')}
             </Typography>
             <Grid container>
-                <Grid item xs={6} display={'flex'} justifyContent={'center'} alignItems={'center'}><Image src={personal} /></Grid>
-                <Grid item xs={6} display={'flex'} justifyContent={'center'} alignItems={'center'}><Image src={allInfo} /></Grid>
-                <Grid item xs={6} display={'flex'} justifyContent={'center'} alignItems={'center'}><Image src={storage} /></Grid>
-                <Grid item xs={6} display={'flex'} justifyContent={'center'} alignItems={'center'}><Image src={crypto} /></Grid>
+                <Grid item xs={6} display={'flex'} justifyContent={'center'} alignItems={'center'}><Image alt={'security'} src={personal} /></Grid>
+                <Grid item xs={6} display={'flex'} justifyContent={'center'} alignItems={'center'}><Image alt={'security'} src={allInfo} /></Grid>
+                <Grid item xs={6} display={'flex'} justifyContent={'center'} alignItems={'center'}><Image alt={'security'} src={storage} /></Grid>
+                <Grid item xs={6} display={'flex'} justifyContent={'center'} alignItems={'center'}><Image alt={'security'} src={crypto} /></Grid>
             </Grid>
         </>
     )
