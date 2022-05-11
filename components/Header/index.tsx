@@ -20,7 +20,6 @@ export default function Header() {
     >
       <Logo />
       <Box sx={{ display: "flex", gap: "18px" }}>
-        
         {
         // @ts-ignore
         routes.map((page:RouterI) => (
