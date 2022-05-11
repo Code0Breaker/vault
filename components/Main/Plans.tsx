@@ -35,7 +35,7 @@ export default function Plans() {
           {
             data.map((item: TypesI) => {
               return (
-                <Box display={'flex'} flexDirection={'column'} alignItems={'center'} paddingBottom={'40px'} paddingTop={'53px'}>
+                <Box key={item.name} display={'flex'} flexDirection={'column'} alignItems={'center'} paddingBottom={'40px'} paddingTop={'53px'}>
                   <Box
                     display={'flex'}
                     flexDirection={'column'}
