@@ -1,0 +1,17 @@
+{
+  "nav": [
+    { "path": "why-us", "name": "Why us" },
+    { "path": "security", "name": "Security/Encription" },
+    { "path": "why-us", "name": "pricing" },
+    { "path": "why-us", "name": "about" },
+    { "path": "why-us", "name": "contact" }
+  ],
+  "auth": [
+    { "path": "/", "name": "Sign in" },
+    { "path": "/", "name": "Start" }
+  ],
+  "header_section":{
+    "title":"Secure cloud storage",
+    "description":"With our rulers increasingly determined to erode our privacy we are here to put an end to it."
+  }
+}

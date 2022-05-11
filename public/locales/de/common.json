@@ -1,0 +1,54 @@
+{
+  "text": "Lorem Ipsum is simply dummy text of the printing and typesetting",
+  "mainText": {
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting"
+  },
+  "guaranteeText": {
+    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting"
+  },
+  "header_section": {
+    "title": "Secure cloud storage",
+    "description": "With our rulers increasingly determined to erode our privacy we are here to put an end to it."
+  },
+  "privacy_section": {
+    "title": "You’re entitled to privacy",
+    "description": "Whether you are looking for a replacement for your existing cloud or more security conscious cloud service that respects your rights we got you covered. Your data is fully secured and stored on encrypted servers scattered all around the globe in different jurisdictions. Meaning that no entity other than you is able to access your files. This makes vault3 perfect destination for"
+  },
+  "privacy_section_types": [
+    {
+      "name": "Sensitive data or company secrets",
+      "cost": "0.002",
+      "period": "monyhly",
+      "users": "1",
+      "storage": "2 TB"
+    },
+    {
+      "name": "Private keys or passwords",
+      "cost": "0.002",
+      "period": "monyhly",
+      "users": "1",
+      "storage": "2 TB"
+    },
+    {
+      "name": "Disaster Recovery",
+      "cost": "0.002",
+      "period": "monyhly",
+      "users": "1",
+      "storage": "2 TB"
+    },
+    {
+      "name": "Data backup",
+      "cost": "0.002",
+      "period": "monyhly",
+      "users": "1",
+      "storage": "2 TB"
+    },
+    {
+      "name": "General everyday use",
+      "cost": "0.002",
+      "period": "monyhly",
+      "users": "1",
+      "storage": "2 TB"
+    }
+  ]
+}

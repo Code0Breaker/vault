@@ -1,0 +1,18 @@
+{
+  "encryption": {
+    "title": "State of the art encryption",
+    "description": "We use military grade AES encryption to secure your files, meaning everything you upload can be only decrypted by YOU. Your files are encrypted and decrypted in your browser, this means we cannot decrypt and preview your files as the private keys never leave your browser."
+  },
+  "privacy": {
+    "title": "Maintain your privacy",
+    "description": "We do not store any logs nor personal information about you. We only require a first month payment when you create an account. After this you will receive your unique access key to access your account."
+  },
+  "flexible":{
+      "title":"Flexible",
+      "description":"You can select any amount of storage you need. Our lowest storage option starts at 25Gb and ends at 2Tb. When you start your journey with us you will be able to tell us how much storage you need."
+  },
+  "easy":{
+      "title":"Easy to use",
+      "description":"In order to maintain your anonymity we only accept popular cryptocurrencies. Our cloud offers an interface similar to your mainstream cloud providers. You don’t need to install any additional programs, your browser is everything you need."
+  }
+}
