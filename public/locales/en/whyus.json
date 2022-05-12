@@ -1,0 +1,42 @@
+{
+  "title": "Why Vault3 ?",
+  "description": "If you are considering using us as your cloud storage providers, you must have some questions. We’re here to help you make a right choice",
+  "safety": {
+    "title": "Your safety is our priority",
+    "description": "We live in a society where technology has become deeply embedded in all parts of our life. Advancement in technology allowed us to communicate with each other in seconds, take high quality pictures and share cat videos with our family and friends. However this came at a great price. In 2014 Snowden and 2017 vault7 leaks showed the true extent of government surveillance. For a decade authoritarian governments have been exploiting technology to install mass surveillance systems human kind has never witnessed before. Our mission is to make the job of any malicious entities a lot harder, we firmly believe that privacy is our fundamental right everyone is entitled to. Unlike other mainstream cloud storage providers your privacy is our priority."
+  },
+  "apart": [
+    {
+      "title": "Anonymity",
+      "description": "We do not require any identifying information from you at all. During registration you will have an option to provide us with your email address if you wish to hear any updates from us but this is not required."
+    },
+    {
+      "title": "No Logging",
+      "description": "Our server does not collect any information about your activity. Once your files have been uploaded we have no way of knowing which files belong to your account."
+    },
+    {
+      "title": "Open source",
+      "description": "You can go to our github and preview our code to see for yourself the lengths we went to secure files you wish to store with us."
+    },
+    {
+      "title": "Secure Location",
+      "description": "Our backend is located in a secure data center with limited access. This means no one can physically access our servers and your data"
+    },
+    {
+      "title": "No Ads or trackers",
+      "description": "We do not use any trackers nor ads so the big companies dominating this space will have no way of tracking your activity"
+    },
+    {
+      "title": "In house support",
+      "description": "We are always here to answer your questions and make sure you have spotless experience with us"
+    },
+    {
+      "title": "Less is more",
+      "description": "No matter your technical abilities, our app and registration process is extremely simple to use! We provide simple and minimalistic user interface that does what it’s meant to do and nothing else, you don’t need to a be computer guru to become a privacy ninja"
+    },
+    {
+      "title": "Unlimited users",
+      "description": "Once you create your account with us you can share the access key with other people you trust. We don’t have restrictions on the maximum number of users."
+    }
+  ]
+}

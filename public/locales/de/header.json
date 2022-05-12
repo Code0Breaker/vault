@@ -1,7 +1,7 @@
 {
   "nav": [
     { "path": "why-us", "name": "Why us de" },
-    { "path": "security", "name": "Security/Encription" },
+    { "path": "security", "name": "Security" },
     { "path": "why-us", "name": "pricing" },
     { "path": "why-us", "name": "about" },
     { "path": "why-us", "name": "contact" }

@@ -2,7 +2,7 @@ import { IconButton, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import { FbIcon, InstaIcon, TwitterIcon } from "../AllIcons";
 
-export default function Footer({background = 'linear-gradient(180deg, #02447D 0%, rgba(2, 68, 125, 0.1) 0.01%, rgba(196, 196, 196, 0) 100%)'}:{background?:string}) {
+export default function Footer({background = 'linear-gradient(0deg, #02447D 0%, rgba(2, 68, 125, 0.1) 0.01%, rgba(196, 196, 196, 0) 100%)'}:{background?:string}) {
     return (
         <Box sx={{ background  }} display={'flex'} justifyContent={'center'} paddingTop={'176px'} paddingBottom={'78px'}>
              <Box display={'flex'} gap={'110px'}>

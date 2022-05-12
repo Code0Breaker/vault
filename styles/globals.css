@@ -1,16 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Lato:wght@300&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Lato' !important;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  font-family: 'Lato' !important;
 }
 
 * {
   box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #01457C;
+  /* font-family: 'Lato' !important; */
+
+}
+
+p,
+span,
+li {
+  /* font-family: 'Lato' !important; */
+  color: #00457B;
+  font-weight: 400;
+  font-size: 25px;
+  /* line-height: 33 */
 }

@@ -1,18 +1,26 @@
 {
-  "encryption": {
-    "title": "State of the art encryption",
-    "description": "We use military grade AES encryption to secure your files, meaning everything you upload can be only decrypted by YOU. Your files are encrypted and decrypted in your browser, this means we cannot decrypt and preview your files as the private keys never leave your browser."
-  },
-  "privacy": {
-    "title": "Maintain your privacy",
-    "description": "We do not store any logs nor personal information about you. We only require a first month payment when you create an account. After this you will receive your unique access key to access your account."
-  },
-  "flexible": {
-    "title": "Flexible",
-    "description": "You can select any amount of storage you need. Our lowest storage option starts at 25Gb and ends at 2Tb. When you start your journey with us you will be able to tell us how much storage you need."
-  },
-  "easy": {
-    "title": "Easy to use",
-    "description": "In order to maintain your anonymity we only accept popular cryptocurrencies. Our cloud offers an interface similar to your mainstream cloud providers. You don’t need to install any additional programs, your browser is everything you need."
+  "title": "Our mission is your security!",
+  "description": "Let’s shed some light on how we managed to achieve this.",
+  "mainContent": [
+    {
+      "title": "It all begins with your key…",
+      "description": "When you begin your journey with us you will be given Master Verification and Decryption Key also referred to as MVDK. This key will allow you to gain access to your account and to decrypt all file information, it is very important you save this number as you will not have a way to recover your account if it gets lost. In addition to user verification MVDK acts as a way for our servers to retrieve your account information and for your browser to decrypt all information supplied by our backend. MVDK in this context is a private key, meaning whoever has access to it is able to access your account and your files"
+    },
+    {
+      "title": "Bulletproof encryption",
+      "description": "Vault3 uses industry standard encryption algorithms to secure your data. Every algorithm that we use is open source and considered unbreakable with traditional computing methods. For file storage we use a combination of AES and TWOFISH algorithms often used by governments around the world for secure communication as it offers second to none security capabilities. In addition to this we use the military grade hashing algorithm SHA to enforce our zero access policy. To secure your data and prevent any malicious actors from decrypting your traffic on the fly we use SSL protocol."
+    },
+    {
+      "title": "Zero access policy",
+      "description": "At vault3 we believe in a zero access policy. What this means is your files don’t leave your browser unencrypted at any point. Whether you upload or download your files only your browser is able to access them. When your files find their way onto our storage bucket we have no way of identifying which user each encrypted blob belongs to."
+    },
+    {
+      "title": "Hardware security",
+      "description": "To ensure we provide the highest standard of security and offer full 360 protection to our users our server providers adhere to the highest industry standards. Data centers where your encrypted files are kept are accessible only to pre-approved staff and have rigorous data recovery procedures meaning your data will not be lost."
+    }
+  ],
+  "requirements": {
+    "title": "Requirements",
+    "description": "Due to the nature of this product, we do not offer any desktop application you can use. Vault3 app can be only accessed via a computer, at this moment we do not provide any support for mobile devices. This is due to the fact that when uploading/downloading files your browsers have to undergo and complete a series of computationally heavy operations. This is to ensure highest privacy and security, however it comes at a cost of performance decrease for less powerful devices."
   }
 }

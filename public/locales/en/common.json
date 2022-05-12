@@ -14,6 +14,27 @@
     "title": "You’re entitled to privacy",
     "description": "Whether you are looking for a replacement for your existing cloud or more security conscious cloud service that respects your rights we got you covered. Your data is fully secured and stored on encrypted servers scattered all around the globe in different jurisdictions. Meaning that no entity other than you is able to access your files. This makes vault3 perfect destination for"
   },
+  "guarantee": {
+    "title": "Your privacy is our top priority",
+    "types": [
+      {
+        "title": "State of the art encryption",
+        "description": "We use military grade AES encryption to secure your files, meaning everything you upload can be only decrypted by YOU. Your files are encrypted and decrypted in your browser, this means we cannot decrypt and preview your files as the private keys never leave your browser."
+      },
+      {
+        "title": "Maintain your privacy",
+        "description": "We do not store any logs nor personal information about you. We only require a first month payment when you create an account. After this you will receive your unique access key to access your account."
+      },
+      {
+        "title": "Flexible",
+        "description": "You can select any amount of storage you need. Our lowest storage option starts at 25Gb and ends at 2Tb. When you start your journey with us you will be able to tell us how much storage you need."
+      },
+      {
+        "title": "Easy to use",
+        "description": "In order to maintain your anonymity we only accept popular cryptocurrencies. Our cloud offers an interface similar to your mainstream cloud providers. You don’t need to install any additional programs, your browser is everything you need."
+      }
+    ]
+  },
   "privacy_section_types": [
     {
       "name": "Sensitive data or company secrets",
@@ -50,5 +71,13 @@
       "users": "1",
       "storage": "2 TB"
     }
-  ]
+  ],
+  "modern": {
+    "title": "Security meets modern design",
+    "description": "Vault3 was designed with everyday users in mind. Despite the heavy security behind the scenes at its essence we are still a cloud storage provider! If you have used any mainstream could storage providers before you will have no troubles switching to us. We offer a highly flexible and customizable web app with an additional layer of security."
+  },
+  "encryption": {
+    "title": "Encryption",
+    "description": "We pride ourselves on being the most secure cloud storage provider money can buy. It all begins in your browser, the second you upload your files your browser will start the encryption process. Your files will not leave your computer until they are fully encrypted this ensures even our server cannot distinguish nor access your content. We achieve this with “Master Verification and Decryption Key” (MVDK) that will be given to you at the end of the registration process. MVDK will act as a way for you to access and decrypt your files, as long as MVDK stays with you no one has a way to preview your files."
+  }
 }
