@@ -9,8 +9,8 @@ export default function Footer({background = 'linear-gradient(0deg, #02447D 0%, 
                   <Box>
                    <Typography color={"#02447D"} sx={{ textDecoration: 'underline', textUnderlineOffset: '1em' }}>Vault3</Typography>
                     <Box marginTop={3}>
-                        <Typography color={"#02447D"}>Address: Lorem is simply dummy text  </Typography>
-                        <Typography color={"#02447D"}>Email: Example@.com </Typography>
+                        <Typography color={"#02447D"}>Address: 20-22 Wenlock Road, London, England, N1 7GU</Typography>
+                        <Typography color={"#02447D"}>Email: inquiries@vault3.com </Typography>
                         <Typography color={"#02447D"}>Phone: +45488 545646 </Typography>
                     </Box>
                 </Box>  

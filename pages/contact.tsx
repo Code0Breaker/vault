@@ -3,19 +3,8 @@ import { Box } from "@mui/system";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Footer from "../components/Footer";
 import Layout from "../components/layouts/Layout";
-import { StartButton } from "../components/StyledComponents";
-const style = {
-    width: 525,
-    background: '#F1F1F1',
-    boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.25)',
-    borderRadius: 4,
-    border:'none',
-    outline:'none',
-    padding:5
-}
-const StyledInput = styled('input')(({height = 60}:{height?:number}) => ({...style,height}))
+import { StartButton, StyledInput, StyledTextArea } from "../components/StyledComponents";
 
-const StyledTextArea = styled('textarea')(({height = 204}:{height?:number}) => ({...style,height}))
 export default function Contact() {
     return (
         <>

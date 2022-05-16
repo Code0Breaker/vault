@@ -7,7 +7,6 @@ import personal from '../../assets/personal.png'
 import storage from '../../assets/storage.png'
 export default function Guarantee() {
     const { t } = useTranslation('common');
-    console.log(t('mainText.description', { returnObjects: true }));
     return (
         <>
             <Typography maxWidth={'713px'} variant={'h3'} marginBottom={'44px'} marginLeft={'175px'}>

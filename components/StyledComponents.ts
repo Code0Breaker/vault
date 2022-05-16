@@ -1,6 +1,14 @@
 import styled from "@emotion/styled";
 import { Button } from "@mui/material";
-
+const style = {
+  width: 525,
+  background: '#F1F1F1',
+  boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.25)',
+  borderRadius: 4,
+  border: 'none',
+  outline: 'none',
+  padding: 5
+}
 export const StartButton = styled(Button)(
   ({ color1 = "#45D5DF", color2 = "#49BDDD", width = 189 }: { color1?: string, color2?: string, width?: number }) => ({
     width: width,
@@ -39,3 +47,9 @@ export const StyledWhiteButton = styled(Button)(() => ({
     background: 'white'
   }
 }));
+
+
+
+export const StyledInput = styled('input')(({ height = 60 }: { height?: number }) => ({ ...style, height }))
+
+export const StyledTextArea = styled('textarea')(({ height = 204 }: { height?: number }) => ({ ...style, height }))

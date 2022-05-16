@@ -13,7 +13,6 @@ interface TypesI {
 export default function Plans() {
   const { t } = useTranslation('common');
   const data: TypesI[] = t('privacy_section_types', { returnObjects: true })
-  console.log(data);
   return (
     <Box
       position={'relative'}

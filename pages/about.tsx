@@ -3,6 +3,7 @@ import { Box } from "@mui/system";
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Image from "next/image";
+import { useRef } from "react";
 import Footer from "../components/Footer";
 import Layout from "../components/layouts/Layout";
 
@@ -20,11 +21,10 @@ export default function About() {
     const { t } = useTranslation('about');
     const buffs: BuffI[] = t('history', { returnObjects: true })
     const group: GroupI[] = t('team.group', { returnObjects: true })
-    console.log(buffs);
-
+    const divRef = useRef(null)
     return (
         <>
-            <Box sx={{ background: 'linear-gradient(107.38deg, #00457B 60.53%, rgba(32, 79, 156, 0.7) 106.54%)' }}>
+            <Box ref={divRef} sx={{ background: 'linear-gradient(107.38deg, #00457B 60.53%, rgba(32, 79, 156, 0.7) 106.54%)' }}>
                 <Layout>
 
                 </Layout>

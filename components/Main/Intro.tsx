@@ -8,8 +8,6 @@ import shadow from '../../assets/shadow.png'
 import { useTranslation } from "next-i18next";
 export default function Intro(){
   const { t } = useTranslation('common');
-  console.log(t('text', { returnObjects: true }));
-  
     return(
         <Box marginTop={'100px'} display={'flex'} justifyContent={'space-between'}>
             <Box maxWidth={'700px'} marginTop={'80px'}>

@@ -7,7 +7,6 @@ import map from '../../assets/map.png'
 import { useTranslation } from "next-i18next";
 export default function Learn() {
     const { t } = useTranslation('common');
-    console.log(t('mainText.description', { returnObjects: true }));
     return (
         <Box sx={{ background: '#02447D' }}>
             <Box position={'relative'} marginTop={'100px'} paddingTop={20} display={'flex'} justifyContent={"space-between"}>
