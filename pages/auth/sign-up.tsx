@@ -69,13 +69,13 @@ const images = [
     { img: img6, title: 'bitcoin' },
     { img: img7, title: 'bitcoin' }
 ]
-function valuetext(value) {
+function valuetext(value:number) {
     console.log(value);
 
     return `${value}°C`;
 }
 
-function valueLabelFormat(value) {
+function valueLabelFormat(value:number) {
     return marks.findIndex((mark) => mark.value === value) + 1;
 }
 export default function SignUp() {
@@ -140,9 +140,9 @@ export default function SignUp() {
                             </Box>
                             <Box marginBottom={'48px'} display={"flex"} gap={'53px'} flexWrap={'wrap'} maxWidth={'900px'}>
                                 {
-                                    images.map(item => {
+                                    images.map((item, i) => {
                                         return (
-                                            <Box onClick={() => console.log(item.title)} sx={{ cursor: 'pointer' }}>
+                                            <Box key={i} onClick={() => console.log(item.title)} sx={{ cursor: 'pointer' }}>
                                                 <Image src={item.img} width={'166px'} height={'166px'} />
                                             </Box>
                                         )

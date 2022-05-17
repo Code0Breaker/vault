@@ -68,13 +68,13 @@ const marks = [
     },
 ];
 
-function valuetext(value) {
+function valuetext(value: number) {
     console.log(value);
     
     return `${value}°C`;
 }
 
-function valueLabelFormat(value) {
+function valueLabelFormat(value: number) {
     return marks.findIndex((mark) => mark.value === value) + 1;
 }
 export default function Pricing() {
@@ -101,15 +101,7 @@ export default function Pricing() {
                     <Typography>{t('main.description')}</Typography>
                 </Box>
                 <Box>
-                    <Slider
-                        // classes={{"MuiSlider-thumb"}}
-                        defaultValue={0}
-                        valueLabelFormat={valueLabelFormat}
-                        getAriaValueText={valuetext}
-                        step={null}
-                        valueLabelDisplay="off"
-                        marks={marks}
-                    />
+: number
                 </Box>
             </MainLayout>
             <Box position={'relative'} paddingBottom={'127px'} paddingTop={'131px'} sx={{ background: '#3EC8C3' }} marginTop={'200px'}>
