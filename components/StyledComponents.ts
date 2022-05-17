@@ -48,8 +48,6 @@ export const StyledWhiteButton = styled(Button)(() => ({
   }
 }));
 
-
-
 export const StyledInput = styled('input')(({ height = 60 }: { height?: number }) => ({ ...style, height }))
 
 export const StyledTextArea = styled('textarea')(({ height = 204 }: { height?: number }) => ({ ...style, height }))

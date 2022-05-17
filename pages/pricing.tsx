@@ -68,15 +68,6 @@ const marks = [
     },
 ];
 
-function valuetext(value: number) {
-    console.log(value);
-    
-    return `${value}°C`;
-}
-
-function valueLabelFormat(value: number) {
-    return marks.findIndex((mark) => mark.value === value) + 1;
-}
 export default function Pricing() {
     const { t } = useTranslation('pricing');
     const text: TextI[] = t('make_payments.types', { returnObjects: true })
