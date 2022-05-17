@@ -36,8 +36,8 @@ export default function Header() {
         }
       </Box>
       <Box display={"flex"} gap={"37px"}>
-        <NextLink href="/" passHref>
-          <StyledLink>Sign in </StyledLink>
+        <NextLink href="/auth/sign-up" passHref>
+          <StyledLink>Sign up </StyledLink>
         </NextLink>
         <NextLink href="/" passHref>
           <StartButton>Start</StartButton>
