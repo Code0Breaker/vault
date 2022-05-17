@@ -7,7 +7,7 @@
     { "path": "contact", "name": "contact" }
   ],
   "auth": [
-    { "path": "/", "name": "Sign in" },
+    { "path": "/auth/sign-up", "name": "Sign up" },
     { "path": "/", "name": "Start" }
   ],
   "header_section": {
