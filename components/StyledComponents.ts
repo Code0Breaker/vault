@@ -10,9 +10,9 @@ const style = {
   padding: 5
 }
 export const StartButton = styled(Button)(
-  ({ color1 = "#45D5DF", color2 = "#49BDDD", width = 189 }: { color1?: string, color2?: string, width?: number }) => ({
+  ({ color1 = "#45D5DF", color2 = "#49BDDD", width = 189, height=42 }: { color1?: string, color2?: string, width?: number, height?:number }) => ({
     width: width,
-    height: 42,
+    height: height,
     background: `linear-gradient(91.71deg, ${color1} 7.95%, ${color2} 95.3%)`,
     borderRadius: 50,
     fontFamily: "Poppins",
