@@ -11,6 +11,8 @@ import ShieldIcon from '../assets/icons/Shield'
 import LockIcon from '../assets/icons/Lock'
 import CardProtectionIcon from '../assets/icons/CardProtection'
 import AcceptIcon from '../assets/icons/Accept'
+import HandIcon from '../assets/icons/hand'
+
 export {
   TwitterIcon,
   BackupsIcon,
@@ -24,5 +26,6 @@ export {
   ShieldIcon,
   LockIcon,
   CardProtectionIcon,
-  AcceptIcon
+  AcceptIcon,
+  HandIcon
 };

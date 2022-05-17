@@ -1,0 +1,31 @@
+{
+  "title": "Pricing",
+  "description": "A truly flexible pricing tailored to your needs.",
+  "main": {
+    "title": "Pricing Tiers",
+    "description": "We do not display any ads nor sell your data, we solely rely on your membership fees to keep us going. We offer flexible pricing to all of our members which means you will pay only for the storage you need, no extra hidden costs or fees. You can select any cloud storage capacity you need starting from 25Gb and ending in 2Tb. More storage you buy the higher your monthly bill will be, you can always change your storage in your settings however any changes to your storage plan will take place next billing cycle."
+  },
+  "accepted_payments": {
+    "title": "Accepted payments",
+    "description": "To protect your privacy we only accept crypto currency payments. To find out more about purchasing and using crypto currencies click here."
+  },
+  "make_payments": {
+    "title": "Making payment",
+    "description": "To begin your journey with vault3 is as easy as 1, 2, 3",
+    "types": [
+      {
+        "text": "Proceed to the register page and select the storage option you want. Once you’re happy with your storage selection and monthly price select a currency you wish to make payment in"
+      },
+      {
+        "text": "Navigate to your crypto wallets and make a payment for the first month of your cloud. Make sure to send the exact amount to the address generated for you. If your transaction will take a long time to confirm and you have to close the tab be sure to save your registration link so you can come back to this later. Don’t worry, the stage of the registration process will be saved. "
+      },
+      {
+        "text": "Once your payment has been confirmed you will be given your Master Verification and Decryption Key. Once the MVDK has been displayed your unique registration link will be destroyed. Remember you MUST save this key to gain access to your account you will not be able to recover it so be sure to keep it safe!"
+      }
+    ]
+  },
+  "questions":{
+      "title":"Still Got Questions ?",
+      "description":"If you still have questions or inquiries don’t hesitate to contact us directly on inquiries@vault3.com or you can contact us on this page."
+  }
+}

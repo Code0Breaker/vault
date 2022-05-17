@@ -2,7 +2,7 @@
   "nav": [
     { "path": "why-us", "name": "Why us" },
     { "path": "security", "name": "Security" },
-    { "path": "why-us", "name": "pricing" },
+    { "path": "pricing", "name": "pricing" },
     { "path": "about", "name": "about" },
     { "path": "contact", "name": "contact" }
   ],
