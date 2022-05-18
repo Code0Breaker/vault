@@ -22,7 +22,7 @@ export default function Security() {
                                 <Typography variant={'h6'} color={'white'} maxWidth={'485px'}>{t('text', { returnObjects: true })}</Typography>
                             </Box>
                             <Box>
-                                <Image  alt={'cloud'} alt={'security'} src={bigLock}/>
+                                <Image  alt={'cloud'} src={bigLock}/>
                             </Box>
                         </Box>
                     </Box>
@@ -47,7 +47,7 @@ export default function Security() {
                 </Grid>
                 <Grid xs={6}>
                     <Box height={'100%'} display={'flex'} justifyContent={'center'} alignItems={'center'}>
-                        <Image  alt={'cloud'} alt={'security'} src={generator} />
+                        <Image  alt={'cloud'} src={generator} />
                     </Box>
                 </Grid>
                 <Grid xs={6} marginTop={'150px'}>
@@ -76,7 +76,7 @@ export default function Security() {
                 </Grid>
                 <Grid xs={6} position={'relative'}>
                     <Box position={'absolute'} zIndex={10} bottom={'-320px'}>
-                        <Image  alt={'cloud'} alt={'security'} src={securityFrame} />
+                        <Image  alt={'cloud'} src={securityFrame} />
                     </Box>
                 </Grid>
             </Grid>
