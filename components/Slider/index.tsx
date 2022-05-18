@@ -54,7 +54,7 @@ export default function Slider({color = 'white'}:{color?:string}) {
             <datalist id="tickmarks"  className={style.range__list} style={{ display: 'flex', appearance: 'none', maxWidth: 1000 ,width: '100%', justifyContent:'space-between' }}>
                 {
                     marks.map((item) => {
-                        return <option value={item.value} style={{color:color}}>{item.label}</option>
+                        return <option key={item.value} value={item.value} style={{color:color}}>{item.label}</option>
                     })
                 }
             </datalist>
