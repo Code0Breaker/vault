@@ -49,7 +49,6 @@ export default function Plans() {
                     borderRadius={'8px'}>
                     <Box display={'flex'} gap={'10px'}>
                     <Image src={item.image} width={'40px'} height={'40px'}/>
-                      {/* <RecordsIcon /> */}
                       <Typography color={'white'}>{item.name}</Typography>
                     </Box>
                     {/* <Box><Typography color={'white'}>{item.cost} BTC</Typography></Box>
