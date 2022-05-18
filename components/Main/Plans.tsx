@@ -1,6 +1,7 @@
 import { Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import { useTranslation } from "next-i18next";
+import Image from "next/image";
 import { FolderIcon, RecordsIcon, UserIcon } from "../AllIcons";
 import { StyledWhiteButton } from "../StyledComponents";
 interface TypesI {
@@ -8,7 +9,8 @@ interface TypesI {
   cost: string,
   period: string,
   users: string,
-  storage: string
+  storage: string,
+  image: string
 }
 export default function Plans() {
   const { t } = useTranslation('common');
@@ -46,14 +48,15 @@ export default function Plans() {
                     sx={{ background: '#02447D' }}
                     borderRadius={'8px'}>
                     <Box display={'flex'} gap={'10px'}>
-                      <RecordsIcon />
+                    <Image src={item.image} width={'40px'} height={'40px'}/>
+                      {/* <RecordsIcon /> */}
                       <Typography color={'white'}>{item.name}</Typography>
                     </Box>
-                    <Box><Typography color={'white'}>{item.cost} BTC</Typography></Box>
-                    <Box><Typography color={'white'}>{item.period}</Typography></Box>
+                    {/* <Box><Typography color={'white'}>{item.cost} BTC</Typography></Box>
+                    <Box><Typography color={'white'}>{item.period}</Typography></Box> */}
                     <Box>
-                      <Box display={'flex'} gap={'25px'}><UserIcon /><Typography color={'white'}>{item.users} users</Typography></Box>
-                      <Box display={'flex'} gap={'21px'} marginTop={'17px'}><FolderIcon /><Typography color={'white'}>{item.storage} storage</Typography></Box>
+                      {/* <Box display={'flex'} gap={'25px'}><UserIcon /><Typography color={'white'}>{item.users} users</Typography></Box>
+                      <Box display={'flex'} gap={'21px'} marginTop={'17px'}><FolderIcon /><Typography color={'white'}>{item.storage} storage</Typography></Box> */}
                     </Box>
                   </Box>
                   <StyledWhiteButton>Get started</StyledWhiteButton>

@@ -20,22 +20,22 @@
       {
         "title": "State of the art encryption",
         "description": "We use military grade AES encryption to secure your files, meaning everything you upload can be only decrypted by YOU. Your files are encrypted and decrypted in your browser, this means we cannot decrypt and preview your files as the private keys never leave your browser.",
-        "img":"/market/1.png"
+        "img": "/market/1.png"
       },
       {
         "title": "Maintain your privacy",
         "description": "We do not store any logs nor personal information about you. We only require a first month payment when you create an account. After this you will receive your unique access key to access your account.",
-        "img":"/market/2.png"
+        "img": "/market/2.png"
       },
       {
         "title": "Flexible",
         "description": "You can select any amount of storage you need. Our lowest storage option starts at 25Gb and ends at 2Tb. When you start your journey with us you will be able to tell us how much storage you need.",
-        "img":"/market/3.png"
+        "img": "/market/3.png"
       },
       {
         "title": "Easy to use",
         "description": "In order to maintain your anonymity we only accept popular cryptocurrencies. Our cloud offers an interface similar to your mainstream cloud providers. You don’t need to install any additional programs, your browser is everything you need.",
-        "img":"/market/4.png"
+        "img": "/market/4.png"
       }
     ]
   },
@@ -45,35 +45,40 @@
       "cost": "0.002",
       "period": "monyhly",
       "users": "1",
-      "storage": "2 TB"
+      "storage": "2 TB",
+      "image": "/plansIcons/1.png"
     },
     {
       "name": "Private keys or passwords",
       "cost": "0.002",
       "period": "monyhly",
       "users": "1",
-      "storage": "2 TB"
+      "storage": "2 TB",
+      "image": "/plansIcons/2.png"
     },
     {
       "name": "Disaster Recovery",
       "cost": "0.002",
       "period": "monyhly",
       "users": "1",
-      "storage": "2 TB"
+      "storage": "2 TB",
+      "image": "/plansIcons/3.png"
     },
     {
       "name": "Data backup",
       "cost": "0.002",
       "period": "monyhly",
       "users": "1",
-      "storage": "2 TB"
+      "storage": "2 TB",
+      "image": "/plansIcons/4.png"
     },
     {
       "name": "General everyday use",
       "cost": "0.002",
       "period": "monyhly",
       "users": "1",
-      "storage": "2 TB"
+      "storage": "2 TB",
+      "image": "/plansIcons/1.png"
     }
   ],
   "modern": {
