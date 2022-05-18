@@ -1,4 +1,4 @@
-import { Grid, Slider, Typography } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Layout from "../components/layouts/Layout";
@@ -18,55 +18,12 @@ import img4 from '../assets/coins/4.png'
 import img5 from '../assets/coins/5.png'
 import img6 from '../assets/coins/6.png'
 import img7 from '../assets/coins/7.png'
+import Slider from "../components/Slider";
+import { StartButton } from "../components/StyledComponents";
 interface TextI {
     text: string
 }
-const marks = [
-    {
-        value: 0,
-        label: '25GB',
-    },
-    {
-        value: 10,
-        label: '200GB',
-    },
-    {
-        value: 20,
-        label: '400GB',
-    },
-    {
-        value: 30,
-        label: '600GB',
-    },
-    {
-        value: 40,
-        label: '800GB',
-    },
-    {
-        value: 50,
-        label: '1000GB',
-    },
-    {
-        value: 60,
-        label: '1200GB',
-    },
-    {
-        value: 70,
-        label: '1400GB',
-    },
-    {
-        value: 80,
-        label: '1600GB',
-    },
-    {
-        value: 90,
-        label: '1800GB',
-    },
-    {
-        value: 100,
-        label: '2TB',
-    },
-];
+
 
 export default function Pricing() {
     const { t } = useTranslation('pricing');
@@ -91,8 +48,16 @@ export default function Pricing() {
                     <Typography variant={'h4'} marginBottom={'17px'}>{t('main.title')}</Typography>
                     <Typography>{t('main.description')}</Typography>
                 </Box>
-                <Box>
-: number
+                <Box paddingTop={'115px'}>
+                    <Slider color="#02447D" />
+                    <Box display={'flex'} justifyContent={'center'}>
+                        <Box display={'grid'} gap={'40px'} marginTop={'125px'} paddingBottom={'106px'} justifyItems={'center'}>
+                            <Box borderRadius={'5px'} padding={'5px'} width={'467px'} height={'115px'} display={'flex'} alignItems={'center'} sx={{ background: '#EEEEEE' }}>
+                                <Typography color={'#02447D'} variant={'h4'}>0,01 BTC</Typography>
+                            </Box>
+                            <StartButton width={411} height={54}>Create account</StartButton>
+                        </Box>
+                    </Box>
                 </Box>
             </MainLayout>
             <Box position={'relative'} paddingBottom={'127px'} paddingTop={'131px'} sx={{ background: '#3EC8C3' }} marginTop={'200px'}>

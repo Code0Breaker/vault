@@ -10,7 +10,7 @@ const style = {
   padding: 5
 }
 export const StartButton = styled(Button)(
-  ({ color1 = "#45D5DF", color2 = "#49BDDD", width = 189, height=42 }: { color1?: string, color2?: string, width?: number, height?:number }) => ({
+  ({ color1 = "#45D5DF", color2 = "#49BDDD", width = 189, height = 42 }: { color1?: string, color2?: string, width?: number, height?: number }) => ({
     width: width,
     height: height,
     background: `linear-gradient(91.71deg, ${color1} 7.95%, ${color2} 95.3%)`,
@@ -51,3 +51,11 @@ export const StyledWhiteButton = styled(Button)(() => ({
 export const StyledInput = styled('input')(({ height = 60 }: { height?: number }) => ({ ...style, height }))
 
 export const StyledTextArea = styled('textarea')(({ height = 204 }: { height?: number }) => ({ ...style, height }))
+
+export const CustomInput = styled('input')(() => ({
+  border: '1px solid #DEDBF0',
+  borderRadius: 4,
+  outline:'none',
+  width:'700px',
+  height:'40px'
+}))

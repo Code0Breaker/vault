@@ -1,0 +1,36 @@
+.range__list {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    color: #E8E8E8;
+    margin-top: 16px;
+    border-radius: 17px;
+}
+
+
+.range__input {
+    border-radius: 17px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #E8E8E8;
+    cursor: pointer;
+    height: 25px;
+}
+
+.range__input::-webkit-slider-thumb {
+    height: 37px;
+    width: 37px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #fff;
+    border-radius: 30px;
+    /* box-shadow: -100vw 0 0 100vw dodgerblue; */
+}
+
+.range__input::-webkit-slider-runnable-track {
+    border-radius: 17px;
+    /* background: linear-gradient(to right, #293043, #293043), #D7D7D7; */
+    /* background-size:  100%;
+    background-repeat: no-repeat; */
+}
