@@ -3,7 +3,7 @@ import { Box } from "@mui/system";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Layout from "../components/layouts/Layout";
 import cloud from '../assets/cloud.png'
-import Image  alt={'cloud'} from "next/image  alt={'cloud'}";
+import Image from "next/image";
 import { useTranslation } from "next-i18next";
 import MainLayout from "../components/layouts/MainLayout";
 import hand from "../assets/hand.png";
@@ -38,7 +38,7 @@ export default function Pricing() {
                             <Typography color={'white'} variant={'body1'}>{t('description')}</Typography>
                         </Box>
                         <Box position={'absolute'} right={'150px'} bottom={'-30px'}>
-                            <Image  alt={'cloud'} alt={'cloud'} src={cloud} />
+                            <Image  alt={'cloud'} src={cloud} />
                         </Box>
                     </Box>
                 </Layout>
