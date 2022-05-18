@@ -36,7 +36,7 @@ export default function Step2({setPayModal}:{setPayModal:(state:boolean)=>void})
                         images.map((item, i) => {
                             return (
                                 <Box key={i} onClick={() => console.log(item.title)} sx={{ cursor: 'pointer' }}>
-                                    <Image src={item.img} width={'166px'} height={'166px'} />
+                                    <Image alt='ok' src={item.img} width={'166px'} height={'166px'} />
                                 </Box>
                             )
                         })

@@ -35,7 +35,7 @@ export function PaymentModal() {
                     <Typography variant={'caption'} color={'#506679'} textAlign={'center'}>Note: Lorem Ipsum is simply dummy text</Typography>
                 </Box>
                 <Box>
-                    <Image src={qr} width={'135px'} height={'135px'} />
+                    <Image alt='qr' src={qr} width={'135px'} height={'135px'} />
                 </Box>
                 <Box sx={{ background: '#F0F3DF' }} width={'734px'} height={'73px'} borderLeft={'6px solid #C4B069'} display={'flex'} flexDirection={'column'} justifyContent={'center'} alignItems={'center'}>
                     <Typography variant={'body2'}>Processing the payment may take up to 30 minutes</Typography>

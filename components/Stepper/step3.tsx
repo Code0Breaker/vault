@@ -22,7 +22,7 @@ export default function Step3({setSignUpModal}:{setSignUpModal:(state:boolean)=>
                     <Box sx={{ background: 'white' }} width={'746px'} height={'100px'} display={'flex'} alignItems={'center'} justifyContent={'space-between'}>
                         <Typography>gjksjgljg4654gsg6465sgkajfligjksjgljg4654gsg6465sgkajfli65sgkajf</Typography>
                         <Button style={{ background: '#45D5DF', width: '173px', height: '100px', color: 'white' }}>
-                            <Image src={copy} width={'34px'} height={'34px'} />
+                            <Image alt={'ok'} src={copy} width={'34px'} height={'34px'} />
                             copy
                         </Button>
                     </Box>

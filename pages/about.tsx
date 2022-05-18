@@ -55,7 +55,7 @@ export default function About() {
                             group.map((item: GroupI, i: number) => {
                                 return (
                                     <Box key={i}>
-                                        <Image src={item.image} width={"400px"} height={"400px"} />
+                                        <Image alt='pay' src={item.image} width={"400px"} height={"400px"} />
                                         <Typography variant="body1">{item.fullName}</Typography>
                                         <Typography variant="body2">{item.info}</Typography>
                                     </Box>

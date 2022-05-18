@@ -3,7 +3,7 @@ import { Box } from "@mui/system";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Layout from "../components/layouts/Layout";
 import cloud from '../assets/cloud.png'
-import Image from "next/image";
+import Image  alt={'cloud'} from "next/image  alt={'cloud'}";
 import { useTranslation } from "next-i18next";
 import MainLayout from "../components/layouts/MainLayout";
 import hand from "../assets/hand.png";
@@ -38,7 +38,7 @@ export default function Pricing() {
                             <Typography color={'white'} variant={'body1'}>{t('description')}</Typography>
                         </Box>
                         <Box position={'absolute'} right={'150px'} bottom={'-30px'}>
-                            <Image src={cloud} />
+                            <Image  alt={'cloud'} alt={'cloud'} src={cloud} />
                         </Box>
                     </Box>
                 </Layout>
@@ -71,44 +71,44 @@ export default function Pricing() {
                             <Box display={'flex'} flexWrap={'wrap'} gap={'80px'} maxWidth={'650px'} justifyContent={'center'}>
 
                                 <Box textAlign={'center'}>
-                                    <Image src={img1} />
+                                    <Image  alt={'cloud'} src={img1} />
                                     <Typography variant={'body1'}>Terra</Typography>
                                     <Typography variant={'body1'}>(Luna)</Typography>
                                 </Box>
                                 <Box textAlign={'center'}>
-                                    <Image src={img2} />
+                                    <Image  alt={'cloud'} src={img2} />
                                     <Typography variant={'body1'}>Bitcoin</Typography>
                                     <Typography variant={'body1'}> (BTC)</Typography>
                                 </Box>
                                 <Box textAlign={'center'}>
-                                    <Image src={img3} />
+                                    <Image  alt={'cloud'} src={img3} />
                                     <Typography variant={'body1'}>Bitcoin cash</Typography>
                                     <Typography variant={'body1'}> (BCH)</Typography>
                                 </Box>
                                 <Box textAlign={'center'}>
-                                    <Image src={img4} />
+                                    <Image  alt={'cloud'} src={img4} />
                                     <Typography variant={'body1'}>Ethereum</Typography>
                                     <Typography variant={'body1'}> (ETH)</Typography>
                                 </Box>
                                 <Box textAlign={'center'}>
-                                    <Image src={img5} />
+                                    <Image  alt={'cloud'} src={img5} />
                                     <Typography variant={'body1'}>Polygon </Typography>
                                     <Typography variant={'body1'}>(Matic)</Typography>
                                 </Box>
                                 <Box textAlign={'center'}>
-                                    <Image src={img6} />
+                                    <Image  alt={'cloud'} src={img6} />
                                     <Typography variant={'body1'}>Cardano</Typography>
                                     <Typography variant={'body1'}> (ADA)</Typography>
                                 </Box>
                                 <Box textAlign={'center'}>
-                                    <Image src={img7} />
+                                    <Image  alt={'cloud'} src={img7} />
                                     <Typography variant={'body1'}>Tether</Typography>
                                     <Typography variant={'body1'}> (USDT)</Typography>
                                 </Box>
 
                             </Box>
                             <Box position={'absolute'} right={0} bottom={'-350px'}>
-                                <Image src={security} width={'900px'} height={'510px'} />
+                                <Image  alt={'cloud'} src={security} width={'900px'} height={'510px'} />
                             </Box>
                         </Box>
                     </Box>
@@ -125,7 +125,7 @@ export default function Pricing() {
                         text.map((item: TextI, i: number) => {
                             return (
                                 <Grid item xs={i === 2 ? 12 : 6} key={i} display={'flex'} justifyContent={'center'} marginTop={6} alignItems={'flex-start'}>
-                                    <Image src={hand} width={'50px'} height={'50px'} />
+                                    <Image  alt={'cloud'} src={hand} width={'50px'} height={'50px'} />
                                     <Box display={'flex'} maxWidth={'500px'} alignItems={'flex-start'}>
                                         <Typography>{item.text}</Typography>
                                     </Box>
@@ -136,7 +136,7 @@ export default function Pricing() {
                 </Grid>
                 <Box marginTop={'150px'}>
                     <Box display={'flex'} alignItems={'center'}>
-                        <Image src={questiosn} width={'70px'} height={'70px'} />
+                        <Image  alt={'cloud'} src={questiosn} width={'70px'} height={'70px'} />
                         <Typography variant={'h4'} marginLeft={'20px'}>{t('questions.title')}</Typography>
                     </Box>
                     <Typography maxWidth={'600px'} marginTop={'50px'}>{t('questions.description')}</Typography>
