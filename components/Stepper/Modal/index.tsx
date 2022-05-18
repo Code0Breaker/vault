@@ -16,7 +16,6 @@ export default function Modal({ setPayModal, width='1200px', height='900px', chi
             justifyContent={'center'}
             alignItems={'center'}>
             <Box
-                // maxWidth={width}
                 width={width}
                 height={height}
                 sx={{ background: 'white' }}
