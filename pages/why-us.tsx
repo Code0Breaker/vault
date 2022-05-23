@@ -2,14 +2,22 @@ import { Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import Layout from "../components/layouts/Layout";
 import security from '../assets/security.png'
+import accept from '../assets/accept.png'
 import Image from "next/image";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { AcceptIcon, CardProtectionIcon, LockIcon, ShieldIcon } from "../components/AllIcons";
 import Footer from "../components/Footer";
 import { useTranslation } from "next-i18next";
+
+
+interface TextI {
+    title: string
+    description: string
+}
+
 export default function WhyUs() {
     const { t } = useTranslation('whyus');
-
+    const text: TextI[] = t('apart', { returnObjects: true })
     return (
         <>
             <Box height={'480px'} paddingBottom={'84px'} sx={{ background: ' linear-gradient(107.38deg, #00457B 60.53%, rgba(32, 79, 156, 0.7) 106.54%)' }}>
@@ -55,48 +63,21 @@ export default function WhyUs() {
                 </Box>
             </Box>
             <Box marginTop={'150px'}>
-                <Typography variant={'h4'} width={'570px'} marginBottom={'84px'} marginLeft={'166px'}>{t('mainText.description', { returnObjects: true })}</Typography>
+                <Typography variant={'h4'} width={'570px'} marginBottom={'84px'} marginLeft={'166px'}>{t('apart_title', { returnObjects: true })}</Typography>
                 <Box marginTop={'84'} display={'flex'} justifyContent={'center'} gap={'58px'}>
-                    <Box textAlign={'center'} >
-                        <Typography marginBottom={'70px'}>Lorem, ipsum.</Typography>
-                        <AcceptIcon />
-                    </Box>
-                    <Box textAlign={'center'}>
-                        <Typography marginBottom={'70px'}>Lorem, ipsum.</Typography>
-                        <AcceptIcon />
-                    </Box>
-                    <Box textAlign={'center'}>
-                        <Typography marginBottom={'70px'}>Lorem, ipsum.</Typography>
-                        <AcceptIcon />
-                    </Box>
-                    <Box textAlign={'center'}>
-                        <Typography marginBottom={'70px'}>Lorem, ipsum.</Typography>
-                        <AcceptIcon />
-                    </Box>
-                    <Box textAlign={'center'}>
-                        <Typography marginBottom={'70px'}>Lorem, ipsum.</Typography>
-                        <AcceptIcon />
-                    </Box>
-                    <Box textAlign={'center'}>
-                        <Typography marginBottom={'70px'}>Lorem, ipsum.</Typography>
-                        <AcceptIcon />
-                    </Box>
-                    <Box textAlign={'center'}>
-                        <Typography marginBottom={'70px'}>Lorem, ipsum.</Typography>
-                        <AcceptIcon />
-                    </Box>
-                    <Box textAlign={'center'}>
-                        <Typography marginBottom={'70px'}>Lorem, ipsum.</Typography>
-                        <AcceptIcon />
-                    </Box>
-                    <Box textAlign={'center'}>
-                        <Typography marginBottom={'70px'}>Lorem, ipsum.</Typography>
-                        <AcceptIcon />
-                    </Box>
-                    <Box textAlign={'center'}>
-                        <Typography marginBottom={'70px'}>Lorem, ipsum.</Typography>
-                        <AcceptIcon />
-                    </Box>
+                    {
+                        text.map((item: TextI, i: number) => (
+                            <Box position={'relative'} textAlign={'center'} key={i} display={'flex'} flexDirection={'column'} height={'500px'} justifyContent={'space-around'} alignItems={'center'}>
+                                <Box>
+                                    <Typography marginBottom={'50px'}>{item.title}</Typography>
+                                    <Typography>{item.description}</Typography>
+                                </Box>
+                                <Box width={"51"} height={"37px"} position={'absolute'} bottom={0}>
+                                    <Image objectFit={"cover"} src={accept}/>
+                                </Box>
+                            </Box>
+                        ))
+                    }
                 </Box>
             </Box>
             <Footer background={'white'} />
@@ -107,7 +88,7 @@ export default function WhyUs() {
 export async function getStaticProps({ locale }: any) {
     return {
         props: {
-            ...(await serverSideTranslations(locale, ['header', 'common', 'whyus'])),
+            ...(await serverSideTranslations(locale, ['header', 'whyus'])),
         },
     };
 }

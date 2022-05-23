@@ -2,7 +2,7 @@ export default function AcceptIcon() {
   return (
     <svg
       width={51}
-      height={37}
+      height={47}
       viewBox="0 0 51 37"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
