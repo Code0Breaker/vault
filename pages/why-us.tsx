@@ -67,7 +67,7 @@ export default function WhyUs() {
                 <Box marginTop={'84'} display={'flex'} justifyContent={'center'} gap={'58px'}>
                     {
                         text.map((item: TextI, i: number) => (
-                            <Box position={'relative'} textAlign={'center'} key={i} display={'flex'} flexDirection={'column'} height={'500px'} justifyContent={'space-around'} alignItems={'center'}>
+                            <Box maxWidth={'150px'} position={'relative'} textAlign={'center'} key={i} display={'flex'} flexDirection={'column'} height={'500px'} alignItems={'center'}>
                                 <Box>
                                     <Typography marginBottom={'50px'}>{item.title}</Typography>
                                     <Typography>{item.description}</Typography>
