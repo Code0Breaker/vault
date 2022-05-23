@@ -54,7 +54,7 @@ export default function Security() {
                     <Box height={'100%'} display={'flex'} justifyContent={'center'} alignItems={'center'}>
                         <Box maxWidth={500}>
                             <Typography variant="h4">{t('mainContent.2.title')}</Typography>
-                            <Typography variant="h6" marginTop={'14px'}>{t('mainContent.2.description')}</Typography>
+                            <Typography variant="h6" marginTop={'15px'}>{t('mainContent.2.description')}</Typography>
                         </Box>
                     </Box>
                 </Grid>
