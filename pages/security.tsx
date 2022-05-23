@@ -40,22 +40,14 @@ export default function Security() {
                 <Grid xs={6} >
                     <Box height={'100%'} display={'flex'} justifyContent={'center'} alignItems={'center'}>
                         <Box maxWidth={500}>
-                            <Typography variant="h4">{t('mainContent.0.title')}</Typography>
-                            <Typography variant="h6" marginTop={'14px'}>{t('mainContent.0.description')}</Typography>
+                            <Typography variant="h4">{t('mainContent.1.title')}</Typography>
+                            <Typography variant="h6" marginTop={'14px'}>{t('mainContent.1.description')}</Typography>
                         </Box>
                     </Box>
                 </Grid>
                 <Grid xs={6}>
                     <Box height={'100%'} display={'flex'} justifyContent={'center'} alignItems={'center'}>
                         <Image  alt={'cloud'} src={generator} />
-                    </Box>
-                </Grid>
-                <Grid xs={6} marginTop={'150px'}>
-                    <Box height={'100%'} display={'flex'} justifyContent={'center'} alignItems={'center'}>
-                        <Box maxWidth={500}>
-                            <Typography variant="h4">{t('mainContent.1.title')}</Typography>
-                            <Typography variant="h6" marginTop={'14px'}>{t('mainContent.1.description')}</Typography>
-                        </Box>
                     </Box>
                 </Grid>
                 <Grid xs={6} marginTop={'150px'}>
@@ -71,6 +63,14 @@ export default function Security() {
                         <Box maxWidth={500}>
                             <Typography variant="h4">{t('mainContent.3.title')}</Typography>
                             <Typography variant="h6" marginTop={'14px'}>{t('mainContent.3.description')}</Typography>
+                        </Box>
+                    </Box>
+                </Grid>
+                <Grid xs={6} marginTop={'150px'}>
+                    <Box height={'100%'} display={'flex'} justifyContent={'center'} alignItems={'center'}>
+                        <Box maxWidth={500}>
+                            <Typography variant="h4">{t('mainContent.4.title')}</Typography>
+                            <Typography variant="h6" marginTop={'14px'}>{t('mainContent.4.description')}</Typography>
                         </Box>
                     </Box>
                 </Grid>
