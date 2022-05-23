@@ -88,7 +88,7 @@ export default function WhyUs() {
 export async function getStaticProps({ locale }: any) {
     return {
         props: {
-            ...(await serverSideTranslations(locale, ['header', 'whyus'])),
+            ...(await serverSideTranslations(locale, ['header', 'whyus','common'])),
         },
     };
 }
