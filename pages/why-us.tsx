@@ -8,7 +8,7 @@ import { AcceptIcon, CardProtectionIcon, LockIcon, ShieldIcon } from "../compone
 import Footer from "../components/Footer";
 import { useTranslation } from "next-i18next";
 export default function WhyUs() {
-    const { t } = useTranslation('common');
+    const { t } = useTranslation('whyus');
 
     return (
         <>
@@ -16,8 +16,8 @@ export default function WhyUs() {
                 <Layout>
                     <Box paddingLeft={'20px'} position={'relative'} height={'100%'}>
                         <Box maxWidth={'390px'} position={'absolute'} top={'100px'}>
-                            <Typography lineHeight={2} variant={'h3'} color={'white'}>Why Vault3?</Typography>
-                            <Typography color={'white'}>{t('mainText.description', { returnObjects: true })}</Typography>
+                            <Typography lineHeight={2} variant={'h3'} color={'white'}>{t('title')}</Typography>
+                            <Typography color={'white'}>{t('description')}</Typography>
                         </Box>
                     </Box>
                 </Layout>
@@ -26,8 +26,8 @@ export default function WhyUs() {
                 </Box>
             </Box>
             <Box padding={'170px'}>
-                <Typography color={'#01457C'} maxWidth={575} variant={'h4'}>{t('mainText.description', { returnObjects: true })}</Typography>
-                <Typography color={'#01457C'} maxWidth={800} variant={'h6'} marginTop={3}>{t('mainText.description', { returnObjects: true })}</Typography>
+                <Typography color={'#01457C'} maxWidth={575} variant={'h4'}>{t('safety.title', { returnObjects: true })}</Typography>
+                <Typography color={'#01457C'} maxWidth={700} variant={'h6'} marginTop={3}>{t('safety.description', { returnObjects: true })}</Typography>
             </Box>
             <Box marginTop={'153px'} display={'flex'} justifyContent={'center'} gap={'56px'}>
                 <Box paddingTop={'67px'} paddingLeft={'15px'} position={'relative'} width={'470px'} height={'285px'} border={'1px solid #02447D'} borderRadius={'8px'}>
@@ -107,7 +107,7 @@ export default function WhyUs() {
 export async function getStaticProps({ locale }: any) {
     return {
         props: {
-            ...(await serverSideTranslations(locale, ['header', 'common', 'security'])),
+            ...(await serverSideTranslations(locale, ['header', 'common', 'whyus'])),
         },
     };
 }
