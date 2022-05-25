@@ -44,7 +44,7 @@ li {
   }
 }
 
-@media screen and (max-width:1150px) {
+@media screen and (max-width:1200px) {
   #__next{
     zoom: 50%;
   }
