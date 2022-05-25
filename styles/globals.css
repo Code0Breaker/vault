@@ -38,8 +38,14 @@ li {
   /* line-height: 33 */
 }
 
-@media screen and (max-width:1150px) {
+@media screen and (max-width:1350px) {
   #__next{
     zoom: 60%;
+  }
+}
+
+@media screen and (max-width:1150px) {
+  #__next{
+    zoom: 50%;
   }
 }
